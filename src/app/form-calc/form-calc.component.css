@@ -1,0 +1,24 @@
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: cadetblue;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 30px;
+}
+
+.operações{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+}

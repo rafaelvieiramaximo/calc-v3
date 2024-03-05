@@ -13,5 +13,13 @@ export class FormCalcComponent {
   onClickSum(){
     this.sum = this.num1 + this.num2;
   }
-
+  onClickSub(){
+    this.sum = this.num1 - this.num2;
+  }
+  onClickMulti(){
+    this.sum = this.num1 * this.num2;
+  }
+  onClickDiv(){
+    this.sum = this.num1 / this.num2;
+  }
 }

@@ -22,4 +22,8 @@ export class FormCalcComponent {
   onClickDiv(){
     this.sum = this.num1 / this.num2;
   }
+  onClickPot(){
+    this.sum = this.num1 ** this.num2;
+  }
+
 }

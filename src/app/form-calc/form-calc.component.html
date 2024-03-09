@@ -15,8 +15,12 @@
         <button (click)="onClickMulti()">Multiplica</button>
         <button (click)="onClickDiv()">Divide</button>
         <button (click)="onClickPot()">Potenciação</button>
-
+        <button (click)="onClickCento()">Porcentagem</button>
+    
     </section>
-    <div class="resultado">Resultado = {{sum}}</div>
+
+    <div class="resultado">Resultado = {{sum}}{{percentage}}</div>
+
+    <div id="Limpar"><button (click)="onClickLimpar()">Limpar Operação</button></div>
     
 </form>

@@ -42,8 +42,8 @@ export class FormCalcComponent {
   }
 
   onClickCento() {
-    const result = (this.num1 / this.num2) * 100;
-    this.percentage = result.toFixed(2).replace(/^0+/, '') + '%';
+    this.sum = (this.num1 / this.num2) * 100;
+    this.percentage= '%';
   }
 
   onClickLimpar(){

@@ -1,3 +1,12 @@
+*{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 1;
+    color: rgb(85, 85, 79);
+}
+.Calculadora{
+    display: flex;
+    justify-content: center;
+}
 .inputs{
     display: flex;
     justify-content: space-around;
@@ -9,7 +18,7 @@
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: rgb(80, 105, 32);
+    background-color: rgb(125, 153, 74);
     margin-left: 30%;
     margin-right: 30%;
     font-size: 30px;
@@ -30,3 +39,13 @@
     transform: translate(-50%, -50%);
     font-size: 30px;
 }
+
+input, button{
+    padding: 0.5rem;
+    background-color: rgb(164, 195, 231);
+}
+
+button:hover{
+    background-color: darkgrey;
+}
+

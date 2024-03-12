@@ -1,26 +1,33 @@
-<form>
-    <div class="inputs">
+<div class="container">
 
-        <input type="number" [(ngModel)] ="num1" name="num1">
-        <input type="number" [(ngModel)] ="num2" name="num2">
+    <form>
+        <div class="Calculadora">
+            <h1>Calculadora</h1>
+        </div>
+        <div class="inputs">
 
-    </div>
-    
-    <br>
+            <input type="number" [(ngModel)] ="num1" name="num1">
+            <input type="number" [(ngModel)] ="num2" name="num2">
 
-    <section class="operações">
+        </div>
         
-        <button (click)="onClickSum()">Somar</button>
-        <button (click)="onClickSub()">Subtração</button>
-        <button (click)="onClickMulti()">Multiplica</button>
-        <button (click)="onClickDiv()">Divide</button>
-        <button (click)="onClickPot()">Potenciação</button>
-        <button (click)="onClickCento()">Porcentagem</button>
-    
-    </section>
+        <br>
 
-    <div class="resultado">Resultado = {{sum}}{{percentage}}</div>
+        <section class="operações">
+            
+            <button (click)="onClickSum()">Somar</button>
+            <button (click)="onClickSub()">Subtração</button>
+            <button (click)="onClickMulti()">Multiplica</button>
+            <button (click)="onClickDiv()">Divide</button>
+            <button (click)="onClickPot()">Potenciação</button>
+            <button (click)="onClickCento()">Porcentagem</button>
+        
+        </section>
 
-    <div id="Limpar"><button (click)="onClickLimpar()">Limpar Operação</button></div>
-    
-</form>
+        <div class="resultado">Resultado = {{sum}} <span *ngIf="percentage">%</span></div>
+
+        <div id="Limpar"><button (click)="onClickLimpar()">Limpar Operação</button></div>
+        
+    </form>
+
+</div>
